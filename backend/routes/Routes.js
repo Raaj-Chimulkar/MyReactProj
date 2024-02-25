@@ -28,7 +28,7 @@ router.post('/', async (request,response)=>{
     });
     
     
-router.get('/', async(request,response)=>{
+router.get('/allbooks', async(request,response)=>{
         try{
             const books= await Book.find({});
     

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
 import { PiBookOpenTextLight } from 'react-icons/pi';
 import { BiUserCircle, BiShow } from 'react-icons/bi';
@@ -7,6 +8,8 @@ import { MdOutlineDelete } from 'react-icons/md';
 import { useState } from 'react';
 import BookModal from './BookModal';
 
+
+// eslint-disable-next-line react/prop-types
 const BookSingleCard = ({ book }) => {
   const [showModal, setShowModal] = useState(false);
 
